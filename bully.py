@@ -17,7 +17,7 @@ from num2words import num2words
 from subprocess import call
 
 #input your openai api key here
-openai.api_key = "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"
+openai.api_key = "your-openai-key"
 
 #commands - change the directory
 cmd_beg= 'espeak '
