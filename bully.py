@@ -40,6 +40,7 @@ while True:
     action = " answer in the most rude, insulting and sarcastic way possible making me feel stupid, swearing as much as possible, use common jokes to also insult. keep the answer on one line. Use no grammar."
     response = generate_response(prompt + action)
     ttsresp = response.replace(' ', '_')
+    ttsresp = response.replace('\'', '_') #attempt to remove you're
 
     print("\n" + response)
     
